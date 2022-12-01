@@ -1,0 +1,30 @@
+<mads:mads xmlns:mads="http://www.loc.gov/mads/v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:schemaLocation="http://www.loc.gov/mads/v2 http://www.loc.gov/standards/mads/mads-2-0.xsd">
+
+<mads:authority>
+
+<mads:topic authority="lcsh">Envelopes (Stationery)</mads:topic>
+
+</mads:authority>
+
+<mads:related type="broader">
+
+<mads:topic>Stationery</mads:topic>
+
+</mads:related>
+
+<mads:identifier type="lccn">sh 85044160 </mads:identifier>
+
+<mads:recordInfo>
+
+<mads:recordOrigin>Converted from MARCXML to MADS version 2.0 (Revision 2.13)</mads:recordOrigin>
+
+<mads:recordContentSource authority="marcorg">DLC</mads:recordContentSource>
+
+<mads:recordChangeDate encoding="iso8601">20110204103438.0</mads:recordChangeDate>
+
+<mads:recordIdentifier source="DLC">sh85044160</mads:recordIdentifier>
+
+</mads:recordInfo>
+
+</mads:mads>
+
