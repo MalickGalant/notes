@@ -4,7 +4,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<style>
+<style> 
+#myDIV {
+  width: 120px;
+  background-color: coral;
+  color: white;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {width: 500px;}
+}
+
 
 #myDIVE {
   width: 120px;
@@ -48,6 +59,13 @@
   
 
 </div>
+<div id="myDIV">
+  <h1>My DIV</h1>
+</div>
+<div id="myDIV">
+  <h1>My DIV</h1>
+</div>
+ 
 
 <button onclick="openFullscreen();">Open Video</button>
 
