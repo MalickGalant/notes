@@ -45,15 +45,16 @@
 
 <div id="myDIV">
   <h1>My News</h1>
+
 </div>
-<button onclick="openFullscreen();">Open Video in Fullscreen Mode</button>
-<p><strong>Tip:</strong> Press the "Esc" key to exit full screen.</p>
+<button id="button" onclick="openFullscreen();">Open Video</button>
 
 <video width="100%" controls id="myvideo">
   <source src="rain.mp4" type="video/mp4">
   <source src="rain.ogg" type="video/ogg">
   Your browser does not support the video tag.
 </video>
+
 <script>
 /* Get the element you want displayed in fullscreen */ 
 var elem = document.getElementById("myvideo");
@@ -70,18 +71,7 @@ function openFullscreen() {
 }
 </script>
 <div id="myDIVE">
-<p>Note: Internet Explorer 10 and earlier versions do not support fullscreen mode.</p>
-
-
-
-
-
-
 </div>
-
-This div element has a blue text color and a blue border.
-
-
 
 </body>
 </html>
