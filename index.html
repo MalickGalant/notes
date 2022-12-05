@@ -4,7 +4,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style> 
+div {
+  background-color: green;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
 
+div:hover {
+  background-color: blue;
+}
 #myDIVE {
   width: 120px;
   background-color: coral;
@@ -46,8 +55,7 @@
 <div id="myDIVE">
 
 <h1>My News</h1>
-
-<button onclick="openFullscreen();">Open Video</button>
+<div onclick="openFullscreen();">Over Me</div>
 
 <video width="100%" controls id="myvideo">
 
@@ -57,11 +65,6 @@
   Your browser does not support the video tag.
 
 </video>
-</div>
-
-
-<div id="DIVER">
-<h1>My DIV</h1>
 </div>
 
 
